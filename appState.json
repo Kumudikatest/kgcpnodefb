@@ -1,0 +1,152 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3f448372-41b1-49a1-8b90-8c30db7f39f6": {
+        "id": "3f448372-41b1-49a1-8b90-8c30db7f39f6",
+        "parent": null,
+        "name": "kgcpnodefb.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kgcpnodefb.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs14",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "kgcpnodefb"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1626098460782,
+        "testCases": {
+          "dff398d8-810a-42a3-bd02-545a25e28149": {
+            "id": "dff398d8-810a-42a3-bd02-545a25e28149",
+            "name": "Test event",
+            "functionId": "3f448372-41b1-49a1-8b90-8c30db7f39f6",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "2969d8b1-4f8b-423d-9e78-f054771f9265": {
+        "id": "2969d8b1-4f8b-423d-9e78-f054771f9265",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "3a45941c-ab80-4550-bb7d-db0c042c3e18": {
+        "id": "3a45941c-ab80-4550-bb7d-db0c042c3e18",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "4114d190-1b40-4e78-8fba-2a6f60fbc423": {
+        "id": "4114d190-1b40-4e78-8fba-2a6f60fbc423",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "b95e3b08-f12f-446a-9dcd-dc1412dae461": {
+        "id": "b95e3b08-f12f-446a-9dcd-dc1412dae461",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "3f448372-41b1-49a1-8b90-8c30db7f39f6"
+    ],
+    "currentFileId": "3f448372-41b1-49a1-8b90-8c30db7f39f6",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "storageinduStorageM3": {
+        "name": "storageinduStorageM3",
+        "type": "CloudStorage",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "indu-storage-m3"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "AWS_DEFAULT_REGION",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.0",
+    "projectName": "kgcpnodefb",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {
+      "AWS": "us-east-1"
+    },
+    "lastSave": 1626098674771
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "kgcpnodefb",
+      "url": "https://github.com/Kumudikatest/kgcpnodefb"
+    }
+  }
+}
